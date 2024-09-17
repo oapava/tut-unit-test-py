@@ -13,6 +13,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
           python-version: '3.7'
+    - name: Instalación de dependencias
       run: pip install -r requirements.txt
     - name: Correr pruebas
       id: correr-pruebas
