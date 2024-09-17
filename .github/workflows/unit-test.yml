@@ -19,4 +19,4 @@ jobs:
             pip freeze
     - name: Correr pruebas
       id: correr-pruebas
-      run: python -m unittest -v tests/test_album.py
+      run: python -m unittest -v tests/test_action.py
