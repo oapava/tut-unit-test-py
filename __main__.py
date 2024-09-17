@@ -45,6 +45,7 @@ if __name__ == '__main__':
    cancion2.interpretes = [interprete2]
    cancion3.interpretes = [interprete3, interprete4]
    session.commit()
+   ##Ajuste de prueba
 
    session.commit()
    session.close()
